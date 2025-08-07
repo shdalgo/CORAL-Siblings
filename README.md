@@ -1,6 +1,6 @@
 # CORAL-Siblings
 
-This repository contains code and analysis related to a metagenomic study investigating the association between siblings, infant microbiome composition, and protection from allergic sensitization. Sequencing files are available under BioProject ID PRJNA1274946 and subject metadata is available at FigShare (DOI 10.6084/m9.figshare.24922716).
+This repository contains code and analysis related to a metagenomic study investigating the association between siblings, infant microbiome composition, and protection from allergic sensitization within the CORAL cohort of infants. Sequencing files are available under BioProject ID PRJNA1274946 and subject metadata is available at FigShare (DOI 10.6084/m9.figshare.24922716). 
 
 #
 # KEGG Pathway ML Evaluation
@@ -8,7 +8,7 @@ This repository contains code and analysis related to a metagenomic study invest
 
 This repository contains a Jupyter Notebook that performs exploratory feature correlation analysis and compares multiple machine learning models for classification. The aim is to identify patterns in the data (via correlation coefficients) and evaluate a variety of ML approaches on classifying samples into groups of healthy/unhealthy.
 
-The analysis uses a filtered KEGG pathway abundance file as input. This file was generated from metagenomic sequencing data and pre-filtered to include only KEGG orthologs significantly higher in infants with siblings (assessed via Maaslin2). 
+The analysis uses a filtered KEGG pathway abundance file as input. This file was generated from metagenomic sequencing data and pre-filtered to include only KEGG orthologs significantly higher in infants with siblings (assessed via Maaslin2), using an equal number of healthy and diseased samples.
 
 **Methods Summary**
 
